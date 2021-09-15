@@ -1,11 +1,4 @@
-/******************************************************************
-  Template Name: Phozogy
-  Description:  Phozogy photography HTML Template
-  Author: Colorlib
-  Author URI: https://colorlib.com
-  Version: 1.0
-  Created: Colorlib
-******************************************************************/
+
 
 /*------------------------------------------------------------------
 [Table of contents]
@@ -1076,7 +1069,7 @@ ol {
 
 .about-text {
 	background: #121212;
-	color:#fff
+	color:#fff;
 	padding-left: 60px;
 	padding-top: 50px;
 	height: 960px;
@@ -2544,7 +2537,7 @@ ol {
 	padding-top: 12px;
 	height: 100px;
 	font-size: 14px;
-	color:#fff
+	color:#fff;
 	background: transparent;
 	resize: none;
 	border: 1px solid #e1e1e1;
@@ -3042,8 +3035,7 @@ ol {
 
 #list
 {
-	margin-left: 38px;
-	margin-top: 0px;
+
 	color: #fff;
 	font-family:inherit;
 	font-size: 15px;
@@ -3068,11 +3060,9 @@ ol {
 
 #description
 {
-	margin-left: 60px;
-	margin-top: 0px;
+
 	color: #fff;
 	font-size: 15px;
-	padding:20px;
 	font-family:inherit;	
 	text-transform:uppercase;
 
@@ -3098,15 +3088,11 @@ ol {
 
 #equipment
 {
-	margin-top: 10px;
+	
 	color: #fff;
 	font-family:inherit;
 	font-size: 15px;
-	margin-bottom: 130px;
-	display: flex;
-	align-items: center;
-	margin-left: 80px;
-	width: 100%;
+
 
 }
 
@@ -3133,14 +3119,26 @@ ol {
 	filter: invert(1);
 }
 
-@media screen and (min-width:<768px) {
+.mobile-portfolio {
+	display: block;
+}
 
-	#description {
+@media screen and (min-width: 732px) {
+
+	/* #description {
     margin-left: 0px;
     margin-top: 0px;
 	margin-bottom: 150px;
 
+	} */
+
+	.services-option {
+	padding-top: 10%;
 	}
-     
+
+	.mobile-portfolio {
+		display: none;
+	}
+	
 
 }
