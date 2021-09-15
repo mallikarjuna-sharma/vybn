@@ -138,4 +138,28 @@
         type: 'iframe'
     });
 
+
+
+    $(window).on("scroll", function() {
+        var scrollHeight = $(document).height();
+        var scrollPosition = $(window).height() + $(window).scrollTop();
+        if ((scrollHeight - scrollPosition) / scrollHeight === 0) {
+           
+            document.getElementById('nav').style.display='none'; 
+        }
+        else{
+            $( "#nav" ).show();
+        }
+        
+    });
+
+
+   
+
+
+
+    
+
 })(jQuery);
+
+
