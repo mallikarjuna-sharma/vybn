@@ -643,7 +643,6 @@ ol {
 .section-title h2,
 .section-title p {
   color: #fff;
-  
 }
 
 .categories-section {
@@ -1111,8 +1110,7 @@ ol {
   background-color: #121212;
 }
 
-.team-section .section-title
-{
+.team-section .section-title {
   text-align: center;
 }
 
@@ -1268,12 +1266,10 @@ ol {
   margin-left: 30px;
 }
 
-
 .card-body {
   /* margin-top: 25px; */
   margin: 0 25 0;
   text-align: left;
-  
 }
 
 .so-item .so-title {
@@ -1281,7 +1277,6 @@ ol {
   margin-bottom: 12px;
   border: solid 2px #fff;
   text-align: center;
- 
 }
 
 /* 
@@ -1307,7 +1302,6 @@ ol {
   overflow: hidden;
   line-height: 36px;
   font-family: "Audiowide", sans-serif;
-
 }
 
 .so-item p {
@@ -1318,10 +1312,7 @@ ol {
   text-align: center;
   font-family: "Open Sans", sans-serif;
   /* border: 2px solid #fff; */
- 
 }
-
-
 
 .so-item:hover {
   -webkit-transform: scale(1.1);
@@ -1445,7 +1436,6 @@ ol {
   -webkit-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
-  
 }
 
 .pricing-item .pi-text {
@@ -2735,7 +2725,7 @@ ol {
   .section-title h2 {
     margin-top: 20px;
   }
-  .pricing-item .pi-title h3{
+  .pricing-item .pi-title h3 {
     border-bottom: none;
   }
 }
@@ -2887,15 +2877,13 @@ ol {
   .section-title h2 {
     margin-top: 20px;
   }
-  .pricing-item .pi-title h3{
+  .pricing-item .pi-title h3 {
     border-bottom: none;
   }
   .about-section .second {
     display: none;
   }
-
 }
-
 
 /* Small Device = 320px */
 
@@ -2965,15 +2953,14 @@ ol {
   .slicknav_nav ul {
     margin: 0;
   }
-  
+
   .slicknav_nav .slicknav_row:hover {
     /* border-radius: 0;
     background: #009603;
     color: #fff; */
     text-decoration: underline;
-  } 
+  }
   .slicknav_nav .slicknav_row,
-
   .slicknav_nav a {
     padding: 8px 30px;
     margin: 0;
@@ -3031,22 +3018,21 @@ ol {
     font-size: 36px;
     line-height: normal;
   }
-  
-  #about img{
+
+  #about img {
     display: block;
   }
-
 
   .section-title h2 {
     margin-top: 20px;
   }
 
-  .pricing-item .pi-title h3{
+  .pricing-item .pi-title h3 {
     border-bottom: none;
   }
 
   .team-section img {
-   visibility: visible;
+    visibility: visible;
   }
 
   /* .header-section
@@ -3076,23 +3062,17 @@ ol {
   line-height: 23px;
 }
 
-
-
 #description {
   color: #fff;
   font-size: 15px;
   font-family: inherit;
   text-transform: uppercase;
-  
 }
 
 #description ul li {
   list-style: none;
   line-height: 26px;
-  
 }
-
-
 
 #equipment {
   color: #fff;
@@ -3105,7 +3085,6 @@ ol {
   line-height: 19px;
 }
 
-
 .invertcolor {
   filter: invert(1);
 }
@@ -3114,15 +3093,11 @@ ol {
   display: block;
 }
 
-.so-item .so-title p ul li{
-  font-family: 'Open Sans', sans-serif;
+.so-item .so-title p ul li {
+  font-family: "Open Sans", sans-serif;
 }
 
-
-
 @media screen and (min-width: 732px) {
- 
-
   .services-option {
     padding-top: 10%;
   }
@@ -3132,11 +3107,11 @@ ol {
   }
 }
 
-.second img{
+.second img {
   width: 674px;
   height: 900px;
 }
 
-.about-section .about-pic{
+.about-section .about-pic {
   height: 900px;
 }
