@@ -1,512 +1,993 @@
 <!DOCTYPE html>
 <html lang="zxx">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Phozogy Template" />
-    <meta name="keywords" content="Phozogy, unica, creative, html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Phozogy | Template</title>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Phozogy Template">
+    <meta name="keywords" content="Phozogy, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vybn Studio</title>
+    <!-- title image -->
+    <link rel="shortcut icon" href="./img/logo.png" class="invertcolor" type="image/x-icon">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
     <!-- Google Font -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Quantico:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Quantico:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-  </head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
 
-  <body>
+<body>
     <!-- Page Preloder -->
-    <div id="preloder">
-      <div class="loader"></div>
-    </div>
-
+    <!-- <div id="preloder">
+            <div class="loader"></div>
+        </div> -->
     <!-- Header Section Begin -->
-    <header class="header-section">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="logo" style="padding: 0px;">
-              <a href="./index.html" >
-                <img src="img/logo.png" alt="" style="width: 90%;"/>
-              </a>
+    <header class="header-section" id="nav">
+        <nav class="navbar-fixed-top ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="logo" style="padding: 0px;">
+                            <a href="./index.html">
+                                <img class="invertcolor" src="img/logo.png" alt="" style="width: 90%;">
+                            </a>
+                        </div>
+                        <nav class="nav-menu mobile-menu  ">
+                            <ul>
+                                <li class="active ">
+                                    <a href="./index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#about">About</a>
+                                </li>
+                                <li>
+                                    <a href="#services">Services</a>
+                                </li>
+                                <li>
+                                    <a href="#pricing">Booking</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio">Portfolio</a>
+                                </li>
+                                <li class="grow">
+                                    <a href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div id="mobile-menu-wrap"></div>
+                    </div>
+                </div>
             </div>
-            <nav class="nav-menu mobile-menu">
-              <ul>
-                <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li>
-                  <a href="#">Pages</a>
-                  <ul class="dropdown">
-                    <li><a href="./gallery.html">Gallery</a></li>
-                    <li>
-                      <a href="./portfolio-details.html">Portfolio Details</a>
-                    </li>
-                    <li><a href="./blog-details.html">Blog Details</a></li>
-                  </ul>
-                </li>
-                <li><a href="./contact.html">Contact</a></li>
-              </ul>
-            </nav>
-            <div class="top-search search-switch">
-              <i class="fa fa-search"></i>
-            </div>
-            <div id="mobile-menu-wrap"></div>
-          </div>
-        </div>
-      </div>
+        </nav>
     </header>
     <!-- Header End -->
-
     <!-- Hero Section Begin -->
     <section class="hero-section">
-      <div class="hs-slider owl-carousel">
-        <div class="hs-item set-bg" data-setbg="img/hero/hero-1.jpg">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="hs-text">
-                  <h2>Photography Studio</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et<br />
-                    dolore magna aliqua. Quis ipsum suspendisse ultrices gravida
-                    accumsan lacus vel facilisis.
-                  </p>
-                  <a href="#" class="primary-btn">Contact us</a>
+        <div class="hs-slider owl-carousel">
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-1.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="hs-text">
+                                <h2>Photography Studio</h2>
+                                <p>
+                                    Vybn studio is photography/videogaphy studio space that is specially deisgned for
+                                    our clients
+                                </p>
+                                <!-- <a href="#contact" class="primary-btn">Contact us</a> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-        <div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="hs-text">
-                  <h2>Photography Studio</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et<br />
-                    dolore magna aliqua. Quis ipsum suspendisse ultrices gravida
-                    accumsan lacus vel facilisis.
-                  </p>
-                  <a href="#" class="primary-btn">Contact us</a>
+            <div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="hs-text">
+                                <h2>Photography Studio</h2>
+                                <p>
+                                    Shoot area of 850 sq ft
+                                </p>
+                                <!-- <a href="#" class="primary-btn">Contact us</a> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
     <!-- Hero Section End -->
-
     <!-- Services Section Begin -->
-    <section class="services-section spad">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="services-item">
-              <img src="img/services/service-1.jpg" alt="" />
-              <h3>Shooting</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt magna aliqua. Quis ipsum suspendisse
-                ultrices gravida.
-              </p>
+    <section class="services-section spad" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-item">
+                        <img src="img/services/service-1.jpg" alt="">
+                        <h3>Studio Space</h3>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-item">
+                        <img src="img/services/service-2.jpg" alt="">
+                        <h3>Photography</h3>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-item">
+                        <img src="img/services/service-3.jpg" alt="">
+                        <h3>Videography</h3>
+
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="services-item">
-              <img src="img/services/service-2.jpg" alt="" />
-              <h3>Videos</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt magna aliqua. Quis ipsum suspendisse
-                ultrices gravida.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="services-item">
-              <img src="img/services/service-3.jpg" alt="" />
-              <h3>Editing</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt magna aliqua. Quis ipsum suspendisse
-                ultrices gravida.
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
+        <!-- Services Option Section Begin -->
+        <!-- <section class="services-option"> -->
+        <div>
+            <div class="row p-5" style='width:100%'>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="section-title" style="text-align: center;">
+                        <h2>EQUIPMENTS</h2>
+
+                    </div>
+                </div>
+
+                <div class=" col-lg-4 col-md-6 col-sm-12  mb-4 md-sm-0" id="description">
+
+                    <div class="">
+                        <div class="so-item">
+                            <div class="so-title">
+
+                                <h5>STUDIO DESCRIPTION</h5>
+                            </div>
+                            <p style="text-align: center;">
+                            <ul>
+                                <li> Studio space of 32ft length and 24ft widge</li>
+                                <li>Make up room for multiple artist</li>
+                                <li> Fully AIR - CONDITIONED</li>
+                                <li> Dressing room</li>
+                                <li> Lounge Area</li>
+                                <li>Car parking for multiple cars</li>
+                                <li> Bike parking</li>
+                                <li>Wifi</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class=" col-lg-4 col-md-6 col-sm-12  mb-4 md-sm-0" id="list">
+                    <div class="">
+                        <div class="so-item ">
+                            <div class="so-title">
+
+                                <h5>
+                                    LIST OF LIGHTS AND SOFT BOX
+                                </h5>
+                            </div>
+                            <p>
+                            <ul>
+                                <li> ELINCHROM FRX MASTER - 2</li>
+                                <li> ELINCHROM FRX 400 - 2</li>
+                                <li> ELINCHROM FRX 200 - 2</li>
+                                <li> GODOX SL 60</li>
+                                <li> 50 WATT LED LIGHTS - 4</li>
+                                <li> 70 SQUARE SOFTBOX - 6</li>
+                                <li> 135 OCTA SOFTBOX- 1</li>
+                                <li> 100 DEEP OCTA SOFTBOX - 1 (WITH GRID)</li>
+                                <li> 130 X 50 RECTANGLE SOFT BOX - 1</li>
+                                <li> 70 BEAUTY DISH</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="  col-lg-4 col-md-6 col-sm-12" id="equipment">
+                    <div class="">
+                        <div class="so-item">
+                            <div class="so-title">
+
+                                <h5>
+                                    EQUIPMENT DETAILS
+                                </h5>
+                            </div>
+                            <p>
+                            <ul>
+                                <li> BARN DOOR WITH GRIDS</li>
+                                <li> MULTIPLE CROWNS</li>
+                                <li> MULTIPLE STANDS FOR LIGHTS
+                                    <br> AND BACKDROP
+                                </li>
+                                <li>BOOM STAND</li>
+                                <li>GEL SHEETS - MULTIPLE COLOURS</li>
+                                <li> SNOOT WITH GRID</li>
+                                <li>MULTIPLE THERMOCOL</li>
+                                <li> REFLECTORS</li>
+                                <li>MULTIPLE CUTTERS</li>
+                                <li> VARIOS BACKDROPS AVAILABLE</li>
+                                <li> VARIOS PROPS AVAILABLE</li>
+                            </ul>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- </section> -->
+        <!-- Services Option Section End -->
     </section>
     <!-- Services Section End -->
-
     <!-- Categories Section Begin -->
     <section class="categories-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6">
-            <div class="section-title">
-              <h2>Categories</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do<br />
-                eiusmod tempor incididunt ut labore et dolore.
-              </p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="section-title" style="text-align: center;">
+                        <h2>BACK DROPS</h2>
+
+                    </div>
+                </div>
+                <!-- <div class="col-lg-6 col-md-6">
+                        <div class="right-btn">
+                            <a href="#" class="primary-btn">View all</a>
+                        </div>
+                    </div> -->
             </div>
-          </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="right-btn">
-              <a href="#" class="primary-btn">VIew all</a>
+            <div class="categories-slider owl-carousel">
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1966.jpg"></div>
+
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1967.jpg"></div>
+
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1968.jpg"></div>
+
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1969.jpg"></div>
+
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1970.jpg"></div>
+
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1971.jpg"></div>
+
+                </div>
+                <!-- <div class="cs-item">
+                        <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1972.jpg"></div>
+                        
+                    </div> -->
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1973.jpg"></div>
+
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1974.jpg"></div>
+
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1975.jpg"></div>
+
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1976.jpg"></div>
+
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1977.jpg"></div>
+
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1978.jpg"></div>
+
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="/img/backdrops/IMG_1979.jpg"></div>
+
+                </div>
+
             </div>
-          </div>
         </div>
-        <div class="categories-slider owl-carousel">
-          <div class="cs-item">
-            <div
-              class="cs-pic set-bg"
-              data-setbg="img/categories/cat-1.jpg"
-            ></div>
-            <div class="cs-text">
-              <h4>Cuts</h4>
-              <span>120 pictures</span>
-            </div>
-          </div>
-          <div class="cs-item">
-            <div
-              class="cs-pic set-bg"
-              data-setbg="img/categories/cat-2.jpg"
-            ></div>
-            <div class="cs-text">
-              <h4>chocolates</h4>
-              <span>325 pictures</span>
-            </div>
-          </div>
-          <div class="cs-item">
-            <div
-              class="cs-pic set-bg"
-              data-setbg="img/categories/cat-3.jpg"
-            ></div>
-            <div class="cs-text">
-              <h4>Food Products</h4>
-              <span>540 pictures</span>
-            </div>
-          </div>
-          <div class="cs-item">
-            <div
-              class="cs-pic set-bg"
-              data-setbg="img/categories/cat-4.jpg"
-            ></div>
-            <div class="cs-text">
-              <h4>Food Products</h4>
-              <span>120 pictures</span>
-            </div>
-          </div>
-          <div class="cs-item">
-            <div
-              class="cs-pic set-bg"
-              data-setbg="img/categories/cat-5.jpg"
-            ></div>
-            <div class="cs-text">
-              <h4>Food Products</h4>
-              <span>10 pictures</span>
-            </div>
-          </div>
-          <div class="cs-item">
-            <div
-              class="cs-pic set-bg"
-              data-setbg="img/categories/cat-6.jpg"
-            ></div>
-            <div class="cs-text">
-              <h4>Potrait</h4>
-              <span>12 pictures</span>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
     <!-- Categories Section End -->
-
     <!-- Portfolio Section Begin -->
-    <section class="portfolio-section spad">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-title">
-              <h2>Our latest works</h2>
+    <section class="portfolio-section spad d-none d-lg-block" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>OUR SHOOTS</h2>
+                    </div>
+
+                </div>
             </div>
-            <div class="filter-controls">
-              <ul>
-                <li class="active" data-filter="*">All</li>
-                <li data-filter=".fashion">Fashion</li>
-                <li data-filter=".lifestyle">Lifestyle</li>
-                <li data-filter=".natural">Natural</li>
-                <li data-filter=".wedding">Wedding</li>
-                <li data-filter=".videos">Videos</li>
-              </ul>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 p-0">
-            <div class="portfolio-filter">
-              <div
-                class="pf-item set-bg fashion"
-                data-setbg="img/portfolio/pf-1.jpg"
-              >
-                <a href="img/portfolio/pf-1.jpg" class="pf-icon image-popup"
-                  ><span class="icon_plus"></span
-                ></a>
-                <div class="pf-text">
-                  <h4>COLORS SPEAK</h4>
-                  <span>Fashion</span>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 p-0">
+                    <div class="portfolio-filter">
+                        <div class="pf-item set-bg fashion" data-setbg="/img/ramyapandian/IMG_1993.JPG">
+                            <a href="/img/ramyapandian/IMG_1993.JPG" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width large-height set-bg lifestyle"
+                            data-setbg="/img/ramyapandian/IMG_1995.JPG">
+                            <a href="/img/ramyapandian/IMG_1995.JPG" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width set-bg natural" data-setbg="/img/ramyapandian/IMG_1994.JPG">
+                            <a href="/img/ramyapandian/IMG_1994.JPG" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-height set-bg wedding" data-setbg="/img/ramyapandian/IMG_2020.JPG">
+                            <a href="/img/ramyapandian/IMG_2020.JPG" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg lifestyle" data-setbg="/img/ramyapandian/IMG_2021.JPG">
+                            <a href="/img/ramyapandian/IMG_2021.JPG" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg natural" data-setbg="/img/ramyapandian/IMG_2022.JPG">
+                            <a href="/img/ramyapandian/IMG_2022.JPG" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg videos" data-setbg="img/portfolio/pf-5.jpg">
+                            <a href="img/portfolio/pf-5.jpg" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg fashion" data-setbg="img/portfolio/pf-6.jpg">
+                            <a href="img/portfolio/pf-6.jpg" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width set-bg videos" data-setbg="img/portfolio/pf-10.jpg">
+                            <a href="img/portfolio/pf-10.jpg" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg fashion" data-setbg="img/portfolio/pf-11.jpg">
+                            <a href="img/portfolio/pf-11.jpg" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width large-height set-bg wedding"
+                            data-setbg="img/portfolio/pf-9.jpg">
+                            <a href="img/portfolio/pf-9.jpg" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-height set-bg wedding" data-setbg="img/portfolio/pf-7.jpg">
+                            <a href="img/portfolio/pf-7.jpg" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width large-height set-bg wedding"
+                            data-setbg="img/portfolio/pf-2.jpg">
+                            <a href="img/portfolio/pf-2.jpg" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width large-height set-bg wedding"
+                            data-setbg="img/portfolio/pf-3.jpg">
+                            <a href="img/portfolio/pf-3.jpg" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width large-height set-bg wedding"
+                            data-setbg="img/portfolio/pf-4.jpg">
+                            <a href="img/portfolio/pf-4.jpg" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width large-height set-bg wedding"
+                            data-setbg="img/portfolio/pf-1.jpg">
+                            <a href="img/portfolio/pf-1.jpg" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-height set-bg wedding" data-setbg="img/portfolio/pf-8.jpg">
+                            <a href="img/portfolio/pf-8.jpg" class="pf-icon image-popup">
+                                <span class="icon_plus"></span>
+                            </a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div
-                class="pf-item large-width large-height set-bg lifestyle"
-                data-setbg="img/portfolio/pf-2.jpg"
-              >
-                <a href="img/portfolio/pf-2.jpg" class="pf-icon image-popup"
-                  ><span class="icon_plus"></span
-                ></a>
-                <div class="pf-text">
-                  <h4>COLORS SPEAK</h4>
-                  <span>Fashion</span>
-                </div>
-              </div>
-              <div
-                class="pf-item large-width set-bg natural"
-                data-setbg="img/portfolio/pf-3.jpg"
-              >
-                <a href="img/portfolio/pf-3.jpg" class="pf-icon image-popup"
-                  ><span class="icon_plus"></span
-                ></a>
-                <div class="pf-text">
-                  <h4>COLORS SPEAK</h4>
-                  <span>Fashion</span>
-                </div>
-              </div>
-              <div
-                class="pf-item large-height set-bg wedding"
-                data-setbg="img/portfolio/pf-4.jpg"
-              >
-                <a href="img/portfolio/pf-4.jpg" class="pf-icon image-popup"
-                  ><span class="icon_plus"></span
-                ></a>
-                <div class="pf-text">
-                  <h4>COLORS SPEAK</h4>
-                  <span>Fashion</span>
-                </div>
-              </div>
-              <div
-                class="pf-item set-bg lifestyle"
-                data-setbg="img/portfolio/pf-7.jpg"
-              >
-                <a href="img/portfolio/pf-7.jpg" class="pf-icon image-popup"
-                  ><span class="icon_plus"></span
-                ></a>
-                <div class="pf-text">
-                  <h4>COLORS SPEAK</h4>
-                  <span>Fashion</span>
-                </div>
-              </div>
-              <div
-                class="pf-item set-bg natural"
-                data-setbg="img/portfolio/pf-8.jpg"
-              >
-                <a href="img/portfolio/pf-8.jpg" class="pf-icon image-popup"
-                  ><span class="icon_plus"></span
-                ></a>
-                <div class="pf-text">
-                  <h4>COLORS SPEAK</h4>
-                  <span>Fashion</span>
-                </div>
-              </div>
-              <div
-                class="pf-item set-bg videos"
-                data-setbg="img/portfolio/pf-5.jpg"
-              >
-                <a href="img/portfolio/pf-5.jpg" class="pf-icon image-popup"
-                  ><span class="icon_plus"></span
-                ></a>
-                <div class="pf-text">
-                  <h4>COLORS SPEAK</h4>
-                  <span>Fashion</span>
-                </div>
-              </div>
-              <div
-                class="pf-item set-bg fashion"
-                data-setbg="img/portfolio/pf-6.jpg"
-              >
-                <a href="img/portfolio/pf-6.jpg" class="pf-icon image-popup"
-                  ><span class="icon_plus"></span
-                ></a>
-                <div class="pf-text">
-                  <h4>COLORS SPEAK</h4>
-                  <span>Fashion</span>
-                </div>
-              </div>
-              <div
-                class="pf-item large-width set-bg videos"
-                data-setbg="img/portfolio/pf-10.jpg"
-              >
-                <a href="img/portfolio/pf-10.jpg" class="pf-icon image-popup"
-                  ><span class="icon_plus"></span
-                ></a>
-                <div class="pf-text">
-                  <h4>COLORS SPEAK</h4>
-                  <span>Fashion</span>
-                </div>
-              </div>
-              <div
-                class="pf-item set-bg fashion"
-                data-setbg="img/portfolio/pf-11.jpg"
-              >
-                <a href="img/portfolio/pf-11.jpg" class="pf-icon image-popup"
-                  ><span class="icon_plus"></span
-                ></a>
-                <div class="pf-text">
-                  <h4>COLORS SPEAK</h4>
-                  <span>Fashion</span>
-                </div>
-              </div>
-              <div
-                class="pf-item large-width large-height set-bg wedding"
-                data-setbg="img/portfolio/pf-9.jpg"
-              >
-                <a href="img/portfolio/pf-9.jpg" class="pf-icon image-popup"
-                  ><span class="icon_plus"></span
-                ></a>
-                <div class="pf-text">
-                  <h4>COLORS SPEAK</h4>
-                  <span>Fashion</span>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="load-more-btn">
-        <a href="#">Load More</a>
-      </div>
+        <!-- <div class="load-more-btn">
+                <a href="#">Load More</a>
+            </div> -->
     </section>
     <!-- Portfolio Section End -->
-
-    <!-- Footer Section Begin -->
-    <footer class="footer-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="fs-about">
-              <div class="fa-logo">
-                <a href="#">
-                  <img src="img/f-logo.png" alt="" />
-                </a>
-              </div>
-              <p>
-                Ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <div class="fa-social">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-youtube-play"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-              </div>
+    <!--MOBILE  Portfolio Section START -->
+    <div class="mobile-portfolio portfolio-section" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>OUR SHOOTS</h2>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="fs-widget">
-              <h5>Instagram</h5>
-              <div class="fw-instagram">
-                <img src="img/instagram/insta-1.jpg" alt="" />
-                <img src="img/instagram/insta-2.jpg" alt="" />
-                <img src="img/instagram/insta-3.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="fs-widget">
-              <h5>Quick links</h5>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-              </ul>
-              <ul>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Services</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
-            <div class="fs-widget">
-              <h5>Subscribe</h5>
-              <p>
-                Imolor amet consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt.
-              </p>
-              <div class="fw-subscribe">
-                <form action="#">
-                  <input type="text" placeholder="Email" />
-                  <button type="submit"><i class="fa fa-send"></i></button>
-                </form>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-12">
-            <div class="copyright-text">
-              <p>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright &copy;
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
-                All rights reserved | This template is made with
-                <i class="fa fa-heart" aria-hidden="true"></i> by
-                <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
+        <div class=" categories-slider owl-carousel">
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/ramyapandian/IMG_1993.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/ramyapandian/IMG_1994.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/ramyapandian/IMG_1995.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/ramyapandian/IMG_2020.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/ramyapandian/IMG_2021.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/ramyapandian/IMG_2022.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/portfolio/pf-1.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/portfolio/pf-2.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/portfolio/pf-3.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/portfolio/pf-4.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/portfolio/pf-5.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/portfolio/pf-6.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/portfolio/pf-7.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/portfolio/pf-8.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/portfolio/pf-9.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/portfolio/pf-10.JPG"></div>
+
+            </div>
+            <div class="cs-item">
+                <div class="cs-pic set-bg" data-setbg="/img/portfolio/pf-11.JPG"></div>
+
+            </div>
+        </div>
+    </div>
+    <!--MOBILE Portfolio Section End -->
+    <!-- Pricing Section Begin -->
+    <section class="pricing-section spad" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title pricing-title">
+                        <h2>service & optimal price</h2>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="pricing-item">
+                        <div class="pi-price">
+                            <h2>999</h2>
+                            <!-- <h2>799</h2> -->
+                            <span>1 hour</span>
+                        </div>
+                        <div class="pi-title">
+                            <h3>Basic</h3>
+                        </div>
+                        <div class="pi-text">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <!-- <a href="#" class="primary-btn">Get appointment</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="pricing-item">
+                        <div class="pi-price">
+                            <h2>3999</h2>
+                            <!-- <h2>3499</h2> -->
+                            <span>Half Day
+                                <br>(4 hours)
+                            </span>
+                        </div>
+                        <div class="pi-title">
+                            <h3>Standard</h3>
+                        </div>
+                        <div class="pi-text">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <!-- <a href="#" class="primary-btn">Get appointment</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="pricing-item">
+                        <div class="pi-price">
+                            <h2>7999</h2>
+                            <!-- <h2>5999</h2> -->
+                            <span>Full Day
+                                <br>(8 hours)
+                            </span>
+                        </div>
+                        <div class="pi-title">
+                            <h3>Extended</h3>
+                        </div>
+                        <div class="pi-text">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            <!-- <a href="#" class="primary-btn">Get appointment</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing Section End -->
+    <!-- about section begins -->
+    <section class="about-section" id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 p-0">
+                    <div class="about-pic set-bg" data-setbg="img/about/about-pic.jpg">
+                        <a href="https://www.instagram.com/p/CKv_dEEBtxo/?utm_source=ig_web_copy_link" target="_blank"
+                            class="play-btn">
+                            <i class="fa fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 p-0 second">
+                    <img src="/img/Photography and videography.jpg" alt="">
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <!-- Team Section Begin -->
+        <section class="team-section spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="section-title">
+                            <h2>Our team</h2>
+
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-6 col-md-6">
+                            <div class="right-btn">
+                                <a href="#" class="primary-btn">Appointment</a>
+                            </div>
+                        </div> -->
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="team-item">
+                            <img src="/img/team/img-1.jpeg" alt="">
+                            <div class="ti-text">
+                                <h5>Aravind Devar</h5>
+                                <span>Director</span>
+                                <div class="ti-social">
+                                    <a href="https://www.facebook.com/aravind.t.ips" target="_blank">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="https://instagram.com/aravinddevar?utm_medium=copy_link" target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <!-- <a href="#"><i class="fa fa-youtube-play"></i></a> -->
+                                    <!-- <a href="#"><i class="fa fa-instagram"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="team-item">
+                            <img src="/img/team/img-2.jpeg" alt="">
+                            <div class="ti-text">
+                                <h5>Harish Uthaman</h5>
+                                <span>Photographer</span>
+                                <div class="ti-social">
+                                    <a href="https://www.facebook.com/harish.uthaman.37" target="_blank">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="https://instagram.com/harish._.uthaman?utm_medium=copy_link"
+                                        target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                    <!-- <a href="#"><i class="fa fa-youtube-play"></i></a> -->
+                                    <!-- <a href="#"><i class="fa fa-instagram"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-sm-12">
+                        <div class="team-item ">
+                            <img src="img/team/img-3.jpeg" alt="">
+                            <div class="ti-text">
+                                <h5>Parthiban Jeyaraman</h5>
+                                <span>Manager</span>
+                                <div class="ti-social">
+                                    <a href="https://www.facebook.com/parthiban.jeyaraman" target="_blank">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                    <a href="https://instagram.com/parthiban__jp?utm_medium=copy_link" target="_blank">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Team Section End -->
+        <!-- Cta Section Begin -->
+        <section class="cta-section spad set-bg" data-setbg="img/cta-bg.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="cta-text">
+                            <h2>Wanna promote your brand?</h2>
+
+                            <a href="#contact" class="primary-btn btn btn-info btn-lg">Contact us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Cta Section End -->
+        <!-- Testimoial Section Begin -->
+        <section class="testimonial-section spad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title">
+                            <h2>What client say?</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="testimonial-item">
+                            <div class="ti-author">
+                                <div class="ta-pic">
+                                    <img src="img/testimonial/ta-1.jpg" alt="">
+                                </div>
+                                <div class="ta-text">
+                                    <h5>ANDREW FILDER</h5>
+                                    <span>@filder_muko</span>
+                                </div>
+                            </div>
+                            <p>
+                                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore
+                                et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="testimonial-item">
+                            <div class="ti-author">
+                                <div class="ta-pic">
+                                    <img src="img/testimonial/ta-2.jpg" alt="">
+                                </div>
+                                <div class="ta-text">
+                                    <h5>David Guetta</h5>
+                                    <span>@filder_muko</span>
+                                </div>
+                            </div>
+                            <p>
+                                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore
+                                et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="testimonial-item">
+                            <div class="ti-author">
+                                <div class="ta-pic">
+                                    <img src="img/testimonial/ta-3.jpg" alt="">
+                                </div>
+                                <div class="ta-text">
+                                    <h5>Bebe Rexha</h5>
+                                    <span>@filder_muko</span>
+                                </div>
+                            </div>
+                            <p>
+                                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore
+                                et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="testimonial-item">
+                            <div class="ti-author">
+                                <div class="ta-pic">
+                                    <img src="img/testimonial/ta-4.jpg" alt="">
+                                </div>
+                                <div class="ta-text">
+                                    <h5>Adam Levine</h5>
+                                    <span>@filder_muko</span>
+                                </div>
+                            </div>
+                            <p>
+                                ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore
+                                et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonial Section End -->
+    </section>
+    <!-- about section ends -->
+    <!-- map section -->
+    <div class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.832816088349!2d80.22873131459517!3d12.982542690848685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d88157c6ba3%3A0xd79ab0ef4506fce1!2sVYBN%20STUDIO!5e0!3m2!1sen!2sin!4v1631033037500!5m2!1sen!2sin"
+            height="635" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" loading="lazy"></iframe>
+    </div>
+    <!-- map section ends -->
+    <!-- Footer Section Begin -->
+    <footer class="footer-section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-about">
+                        <div class="fa-logo">
+                            <a href="#">
+                                <img src="/img/logo.png" class="invertcolor" alt="">
+                            </a>
+                        </div>
+
+                        <div class="fa-social">
+                            <a href="https://www.facebook.com/VYBN-Studio-338628810659306/" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/vybn_studio/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Instagram</h5>
+                        <div class="fw-instagram">
+                            <img src="/img/IMG_2035.JPG" alt="">
+                            <img src="/img/IMG_2156.JPG" alt="">
+                            <img src="/img/categories/cat-6.JPG" alt="">
+                            <img src="/img/f4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Quick links</h5>
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#services">Services</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Contact Us</h5>
+                        <p>Manasarovar, 1, 9c/10A, Ground Floor , Ayodhya Colony IInd Street, Velachery, Chennai, Tamil
+                            Nadu 600042
+                        </p>
+                        <p>Mail.To : 123464@gmail.com</p>
+                        <p>Ph.No: +91-123465789</p>
+
+
+                        <!-- <div class="fw-subscribe">
+                                <form action="#">
+                                    <input type="text" placeholder="Email">
+                                    <button type="submit">
+                                        <i class="fa fa-send"></i>
+                                    </button>
+                                </form>
+                            </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="copyright-text">
+                        <p>
+                            Copyright &copy;
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                            All rights reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- Footer Section End -->
-
     <!-- Search model Begin -->
     <div class="search-model">
-      <div class="h-100 d-flex align-items-center justify-content-center">
-        <div class="search-close-switch">+</div>
-        <form class="search-model-form">
-          <input type="text" id="search-input" placeholder="Search here....." />
-        </form>
-      </div>
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
     </div>
     <!-- Search model end -->
-
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -516,5 +997,6 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-  </body>
+</body>
+
 </html>
