@@ -157,7 +157,7 @@ ol {
   font-size: 16px;
   padding: 14px 30px;
   color: #ffffff;
-  background: #009603;
+  background: #17a2b8;
   text-transform: uppercase;
   font-weight: 700;
   font-family: "Quantico", sans-serif;
@@ -481,7 +481,7 @@ ol {
 
 .hs-item .hs-text h2 {
   font-size: 60px;
-  color: #ffffff;
+  color: #121212;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -491,18 +491,23 @@ ol {
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   opacity: 0;
+  /* margin-top: 170px; */
+  font-family: fantasy;
 }
 
 .hs-item .hs-text p {
-  color: #ffffff;
+  color: #121212;
   line-height: 30px;
-  margin-bottom: 32px;
+  margin-bottom: -71px;
   position: relative;
   top: 100px;
+  font-weight: 600;
   -webkit-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   opacity: 0;
+  /* margin-top: 35px; */
+  font-family: cursive;
 }
 
 .hs-item .hs-text .primary-btn {
@@ -539,7 +544,7 @@ ol {
   padding: 10px 10px 18px 10px;
   background: #121212;
   margin-bottom: 30px;
-  border: solid 3px #fff;
+  border: solid 2px #fff;
 }
 
 .services-item img {
@@ -664,6 +669,7 @@ ol {
 .portfolio-section .section-title {
   margin-bottom: 22px;
   text-align: center;
+  margin-top: 40px;
 }
 .portfolio-section {
   background-color: #121212;
@@ -1033,7 +1039,7 @@ ol {
   width: 100px;
   line-height: 100px;
   text-align: center;
-  background: #009603;
+  background: #17a2b8;
   font-size: 30px;
   color: #ffffff;
   display: inline-block;
@@ -1186,6 +1192,16 @@ ol {
   margin-bottom: 30px;
 }
 
+.cta-section a:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
+}
+
 /*---------------------
   Testimonial Section
 -----------------------*/
@@ -1201,10 +1217,11 @@ ol {
 }
 
 .testimonial-item {
-  border-top: 5px solid #e1e1e1;
+  /* border-top: 5px solid #e1e1e1; */
   padding-top: 30px;
   position: relative;
   margin-bottom: 30px;
+  height: 350px;
 }
 
 .testimonial-item:before {
@@ -1221,7 +1238,7 @@ ol {
 
 .testimonial-item .ti-author .ta-pic {
   margin-right: 25px;
-  float: left;
+  /* float: left; */
 }
 
 .testimonial-item .ti-author .ta-pic img {
@@ -1233,18 +1250,23 @@ ol {
 .testimonial-item .ti-author .ta-text {
   overflow: hidden;
   padding-top: 24px;
+  /* float: right; */
 }
 
 .testimonial-item .ti-author .ta-text h5 {
-  color: #111111;
-  font-weight: 700;
+  color: #fff;
+  font-weight: 800;
   text-transform: uppercase;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .testimonial-item .ti-author .ta-text span {
   font-size: 15px;
   color: #fff;
+  position: absolute;
+  top: 34px;
+  right: 10px;
 }
 
 .testimonial-item p {
@@ -1370,7 +1392,7 @@ ol {
 }
 
 .pricing-item:hover:after {
-  background: #009603;
+  background: #17a2b8;
 }
 
 .pricing-item:hover .pi-price h2 {
@@ -1382,7 +1404,7 @@ ol {
 }
 
 .pricing-item:hover .pi-title {
-  background: #009603;
+  background: #17a2b8;
 }
 
 .pricing-item:hover .pi-title h3 {
@@ -1391,7 +1413,7 @@ ol {
 }
 
 .pricing-item:hover .pi-text .primary-btn {
-  background: #009603;
+  background: #17a2b8;
   color: #ffffff;
 }
 
@@ -2871,17 +2893,24 @@ ol {
   .portfolio-details-pic .pdp-item.large-width {
     width: calc(50% - 20px);
   }
-  .hide img {
+  /* .hide img {
     display: none;
-  }
+  } */
   .section-title h2 {
     margin-top: 20px;
   }
   .pricing-item .pi-title h3 {
     border-bottom: none;
   }
-  .about-section .second {
+  .about-section .about-pic {
     display: none;
+  }
+
+  .testimonial-section {
+    display: none;
+  }
+  #testimonial {
+    display: block;
   }
 }
 
@@ -3042,9 +3071,12 @@ ol {
 }
 
 .card {
-  margin-top: 10px;
-  margin-right: 25px;
+  /* margin-top: 10px; */
+  /* margin-right: 25px; */
   background-color: #121212;
+  border: solid 2px #fff;
+  border-radius: 15px;
+  padding: 10px;
 }
 
 /* .card-body {
@@ -3114,4 +3146,14 @@ ol {
 
 .about-section .about-pic {
   height: 900px;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s ease-in-out;
 }
